@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact | AP Appliance Service</title>
+  <meta name="description" content="Contact AP Appliance Service for appliance repair in Las Vegas, NV. Call 123-456-7890 or request service online.">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+</head>
+<body>
+<header>
+  <div class="topbar">
+    <a class="brand" href="index.html" aria-label="AP Appliance Service home">
+      <img src="images/logo.svg" alt="AP Appliance Service logo">
+      <div class="name">
+        <strong>AP Appliance Service</strong>
+        <span>Appliance Repair • Las Vegas, NV</span>
+      </div>
+    </a>
+
+    <div class="rightInfo">
+      <div class="badge" aria-label="Working hours">
+        <span class="pill">Hours</span>
+        <span class="tinyline">Mon–Sat 8:00 AM – 5:00 PM</span>
+      </div>
+      <a class="badge" href="tel:1234567890" aria-label="Call 123-456-7890">
+        <span class="pill">Call</span>
+        <span class="tinyline">123-456-7890</span>
+      </a>
+    </div>
+  </div>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="brands.html">Brands</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+<main class="container">
+
+<div class="sectionTitle">
+  <h2>Contact</h2>
+  <p>Request service or ask a question. We’ll respond as soon as possible.</p>
+</div>
+
+<section class="grid">
+  <article class="card">
+    <h3>Call / Email</h3>
+    <p><strong>Working hours:</strong> Mon–Sat 8:00 AM – 5:00 PM</p>
+    <p><strong>Phone:</strong> <a href="tel:1234567890">123-456-7890</a></p>
+    <p><strong>Email:</strong> <a href="mailto:service@apapplianceservice.com">service@apapplianceservice.com</a></p>
+    <p class="tiny" style="margin-top:10px;">Hours and service areas can be customized in this template.</p>
+
+    <div class="note" style="margin-top:12px;">
+      This contact form uses your device’s email app (mailto). If you want true “send without email app” delivery,
+      connect the form to a service like Formspree or add a small server script.
+    </div>
+  </article>
+
+  <article class="card">
+    <h3>Ask a Question</h3>
+    <form id="contactForm">
+      <div class="twoCol">
+        <div>
+          <label for="name">Name</label>
+          <input id="name" name="name" required placeholder="Your name">
+        </div>
+        <div>
+          <label for="phone">Phone</label>
+          <input id="phone" name="phone" placeholder="(optional)">
+        </div>
+      </div>
+
+      <div class="twoCol">
+        <div>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required placeholder="you@example.com">
+        </div>
+        <div>
+          <label for="appliance">Appliance</label>
+          <select id="appliance" name="appliance">
+            <option value="Washing Machine">Washing Machine</option>
+            <option value="Dryer">Dryer</option>
+            <option value="Oven/Range">Oven/Range</option>
+            <option value="Refrigerator">Refrigerator</option>
+            <option value="Dishwasher">Dishwasher</option>
+            <option value="Freezer">Freezer</option>
+            <option value="Microwave">Microwave</option>
+            <option value="Ice Maker">Ice Maker</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+      </div>
+
+      <div>
+        <label for="message">Question / Issue</label>
+        <textarea id="message" name="message" required placeholder="Tell us what’s going on (symptoms, error codes, brand/model if available)."></textarea>
+      </div>
+
+      <button class="btn primary" type="submit">Send Email</button>
+    </form>
+  </article>
+</section>
+
+</main>
+<footer>
+  <div class="footerInner">
+    <div>
+      <strong>AP Appliance Service</strong> <span class="tiny">• Las Vegas, NV</span><br>
+      <span class="tiny">Hours: Mon–Sat 8:00 AM – 5:00 PM • Phone: <a href="tel:1234567890">123-456-7890</a> • Email: <a href="mailto:service@apapplianceservice.com">service@apapplianceservice.com</a></span>
+    </div>
+    <div class="tiny">© <span id="year"></span> AP Appliance Service. All rights reserved.</div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
